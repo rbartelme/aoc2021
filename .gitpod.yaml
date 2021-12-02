@@ -1,5 +1,5 @@
  tasks:
   - name: Make sure pip is up-to-date
-    command: /home/gitpod/.pyenv/versions/3.8.10/bin/python3.8 -m pip install --upgrade pip
+    command: /home/gitpod/.pyenv/versions/3.8.12/bin/python3 -m pip install --upgrade pip
   - name: install basic DS packages via pip
-    command: pip install pandas scipy
+    command: pip install requirements.txt
