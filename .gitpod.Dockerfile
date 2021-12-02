@@ -6,4 +6,4 @@ RUN sudo apt-get update \
     && sudo rm -rf /var/lib/apt/lists/*
 
 # pip it up
-RUN pip install pandas scipy
+RUN pip3 install pandas scipy
